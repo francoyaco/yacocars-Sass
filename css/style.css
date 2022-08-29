@@ -1,0 +1,126 @@
+/*VARIABLES*/
+/*INDEX CAROUSEL*/
+.imgCarousel {
+  max-height: 500px;
+  object-fit: cover; }
+
+.nav1 li a {
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+  font-size: 1.5rem;
+  color: white; }
+
+.nav1 li a:hover,
+a:focus {
+  background-size: 100% 2px; }
+
+h1 {
+  color: red; }
+
+header {
+  background-color: #333232; }
+
+.navbar-toggler {
+  background-color: #fdfcfc; }
+
+.logoYaco {
+  max-height: 110px; }
+
+/* footer */
+footer {
+  background-color: tomato;
+  height: 100px;
+  margin-top: 350px;
+  width: 100%; }
+
+body {
+  background-color: white; }
+
+footer p {
+  color: white; }
+
+.footer-iconos {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 10px; }
+
+.footer-iconos img {
+  max-height: 40px; }
+
+.imgCarouselNosotros {
+  height: 640px;
+  object-fit: cover; }
+
+/* CARDS UBICACION */
+.card-body iframe {
+  width: 100%; }
+
+.row {
+  row-gap: 60px;
+  margin: 0;
+  padding: 0; }
+
+.listita {
+  background-color: #f3f1f1; }
+
+/*FORMULARIO CONTACTO*/
+.main-contacto {
+  display: flex;
+  justify-content: center; }
+
+form {
+  border: 1px solid black;
+  width: 32%;
+  box-shadow: 8px 5px 10px rgba(0, 0, 0, 0.43);
+  background-color: #f7f4f4; }
+
+.formuText {
+  text-align: center;
+  font-size: 20px; }
+
+.form-control {
+  width: 100%;
+  border-radius: 8%; }
+
+.label-form {
+  background-color: #faf9f9; }
+
+.boton-form {
+  background-color: #313131; }
+
+.botonForm {
+  display: flex;
+  justify-content: center; }
+
+/*Nosotros*/
+.nosotros-p {
+  font-family: 'Space Mono', monospace;
+  color: #d4cfcf; }
+
+.p-nosotros1 {
+  width: 80%; }
+
+.h2-nosotros {
+  color: white; }
+
+/*Vehiculos*/
+.boton-vehiculo {
+  background-color: #383737; }
+
+.listita {
+  font-size: 1.2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+/*MEDIA QUERY FORMULARIO*/
+@media (max-width: 375px) {
+  form {
+    width: 100%; } }
+
+@media all and (min-width: 376px) and (max-width: 768px) {
+  form {
+    width: 100%; } }
