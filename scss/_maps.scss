@@ -1,6 +1,6 @@
 /*MAP - GET*/
 
-$estilo: (color:black, tamFuente: 25px, h1color: red, footercolor: tomato);
+$estilo: (color:black, tamFuente: 25px, h1color: white, footercolor: tomato);
 
 .labelForm{
     color: map-get($estilo, color);
