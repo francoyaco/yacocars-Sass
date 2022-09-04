@@ -1,4 +1,27 @@
-/*VARIABLES*/
+/*MAP - GET*/
+.labelForm {
+  color: black;
+  font-size: 25px; }
+
+h1 {
+  color: red; }
+
+footer {
+  background-color: tomato; }
+
+/*Aplico este extend para un lorem en el index*/
+.index-p, .index-p2 {
+  color: blue;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center; }
+
+.index-p2 {
+  font-size: 25px; }
+
+/*Mixin utilizado en nosotros*/
+.nosotros-p {
+  font-size: 34px; }
+
 /*INDEX CAROUSEL*/
 .imgCarousel {
   max-height: 500px;
@@ -13,32 +36,22 @@
   transition: background-size 0.3s;
   font-size: 1.5rem;
   color: white; }
+  .nav1 li a:hover:focus {
+    background-size: 100% 2px; }
 
-.nav1 li a:hover,
-a:focus {
-  background-size: 100% 2px; }
-
-h1 {
-  color: red; }
+.nav1 .navbar-toggler {
+  background-color: #fdfcfc; }
 
 header {
   background-color: #333232; }
-
-.navbar-toggler {
-  background-color: #fdfcfc; }
-
-.logoYaco {
-  max-height: 110px; }
+  header .logoYaco {
+    max-height: 110px; }
 
 /* footer */
 footer {
-  background-color: tomato;
   height: 100px;
   margin-top: 350px;
   width: 100%; }
-
-body {
-  background-color: white; }
 
 footer p {
   color: white; }
@@ -89,9 +102,6 @@ form {
 
 .label-form {
   background-color: #faf9f9; }
-
-.boton-form {
-  background-color: #313131; }
 
 .botonForm {
   display: flex;

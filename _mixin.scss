@@ -1,0 +1,8 @@
+/*Mixin utilizado en nosotros*/
+@mixin h2-nosotros ($size){
+    font-size: $size;
+}
+
+.nosotros-p{
+    @include h2-nosotros(34px)
+}

@@ -1,12 +1,4 @@
-@import"fons";
-
-/*VARIABLES*/
-$colorPrincipal:red;
-$pp:tomato;
-$bodyBackground:white;
-
-
-
+@import "variables";
 /*INDEX CAROUSEL*/
 .imgCarousel{
    max-height: 500px;
@@ -28,15 +20,14 @@ $bodyBackground:white;
                 background-size: 100% 2px;
             }
     }
-    h1{
-        color: $colorPrincipal;
-    }
-    header{
-        background-color: rgb(51, 50, 50);
-    }
     .navbar-toggler{
         background-color: rgb(253, 252, 252);
     }
+
+}
+
+header{
+    background-color: rgb(51, 50, 50);
     .logoYaco{
         max-height: 110px;
     }
@@ -46,14 +37,10 @@ $bodyBackground:white;
 
 /* footer */
 footer{
-    background-color: $pp;
     height: 100px;
     margin-top: 350px;
     width: 100%;
 
-}
-body{
-    background-color:$bodyBackground;
 }
 
 footer p{
@@ -69,7 +56,7 @@ gap: 10px;
 }
 .footer-iconos img{
     max-height: 40px;
-   
+
     
 }
 
@@ -99,8 +86,6 @@ gap: 10px;
     display: flex;
     justify-content: center;
     
-    
-    
 }
 form{
     border: 1px solid black;
@@ -123,10 +108,7 @@ font-size: 20px;
 .label-form{
     background-color: rgb(250, 249, 249);
 }
-.boton-form{
-    background-color: rgb(49, 49, 49);
-    
-}
+
 .botonForm{
     display: flex;
    

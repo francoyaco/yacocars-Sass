@@ -1,0 +1,11 @@
+/*Aplico este extend para un lorem en el index*/
+
+.index-p{
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.index-p2{
+    font-size: 25px;
+    @extend .index-p;
+}

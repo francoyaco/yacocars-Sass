@@ -1,0 +1,15 @@
+/*MAP - GET*/
+
+$estilo: (color:black, tamFuente: 25px, h1color: red, footercolor: tomato);
+
+.labelForm{
+    color: map-get($estilo, color);
+    font-size: map-get($estilo , tamFuente);
+    
+}
+h1{
+    color: map-get($estilo , h1color );
+}
+footer{
+    background-color: map-get($estilo , footercolor );
+}
